@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="mt-auto mb-5 text-light-cyan font-medium">
+    <div class="mt-auto mb-5 text-light-cyan font-medium text-sm">
       Challenge by <a class="text-neon-green underline" href="https://www.frontendmentor.io?ref=challenge"
                       target="_blank">Frontend Mentor</a>.
       Coded by <a class="text-neon-green underline" href="mailto:sakhshijan@gmail.com">NullEe</a>.
