@@ -8,9 +8,9 @@
       <img src="/images/pattern-divider-desktop.svg" class="mb-8 hidden sm:inline" alt="image">
       <img src="/images/pattern-divider-mobile.svg" class="mb-8 sm:hidden" alt="image">
       <div class="absolute left-0 right-0 flex items-center -bottom-8 justify-center">
-        <button class="h-16 w-16 bg-neon-green rounded-full flex items-center justify-center" @click="refresh">
+        <div class="h-16 w-16 bg-neon-green rounded-full flex items-center justify-center" @click="refresh">
           <img :class="{loading:pending}" src="/images/icon-dice.svg" alt="">
-        </button>
+        </div>
       </div>
     </div>
 
