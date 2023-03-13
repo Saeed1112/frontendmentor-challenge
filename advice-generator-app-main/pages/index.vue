@@ -3,7 +3,7 @@
 
     <div class="shadow-2xl bg-dark-grayish-blue mt-auto rounded-xl px-5 sm:px-12 py-10 w-full sm:w-[32rem] relative flex flex-col gap-5">
       <h2 class="text-neon-green uppercase tracking-[4px] text-center font-bold text-sm">Advice #{{ data?.id }}</h2>
-      <p class="text-light-cyan font-bold text-[1.75rem]">“{{ data?.advice }}”</p>
+      <p class="text-light-cyan font-black text-[1.75rem]">“{{ data?.advice }}”</p>
       <img src="/images/pattern-divider-desktop.svg" class="mb-8 hidden sm:inline" alt="image">
       <img src="/images/pattern-divider-mobile.svg" class="mb-8 sm:hidden" alt="image">
       <div class="absolute left-0 right-0 flex items-center -bottom-8 justify-center">
