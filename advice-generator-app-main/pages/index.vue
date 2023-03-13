@@ -17,7 +17,7 @@
     <div class="mt-auto mb-5 text-light-cyan font-medium">
       Challenge by <a class="text-neon-green underline" href="https://www.frontendmentor.io?ref=challenge"
                       target="_blank">Frontend Mentor</a>.
-      Coded by <a class="text-neon-green underline" href="#">NullEe</a>.
+      Coded by <a class="text-neon-green underline" href="mailto:sakhshijan@gmail.com">NullEe</a>.
     </div>
   </main>
 </template>
