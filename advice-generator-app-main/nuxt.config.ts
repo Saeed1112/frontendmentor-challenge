@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss'],
     app: {
         head: {
-            title:'Frontend Mentor | Advice generator app',
+            htmlAttrs: {lang: 'en'},
+            title: 'Frontend Mentor | Advice generator app',
             link: [
                 {
                     href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap',

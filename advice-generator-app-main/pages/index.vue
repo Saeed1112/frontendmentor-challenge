@@ -1,20 +1,23 @@
 <template>
   <main class="min-h-screen bg-dark-blue font-manrope flex flex-col justify-center items-center px-3">
 
-    <div class="shadow-2xl bg-dark-grayish-blue mt-auto rounded-xl px-5 sm:px-12 py-10 w-full sm:w-[32rem] relative flex flex-col gap-5">
-      <h2 class="text-neon-green uppercase tracking-[4px] text-center font-bold text-sm">Advice #{{ data?.id }}</h2>
+    <div
+        class="shadow-2xl bg-dark-grayish-blue mt-auto rounded-xl px-5 sm:px-12 py-10 w-full sm:w-[32rem] relative flex flex-col gap-5">
+      <h1 class="text-neon-green uppercase tracking-[4px] text-center font-bold text-sm">Advice #{{ data?.id }}</h1>
       <p class="text-light-cyan font-black text-[1.75rem]">“{{ data?.advice }}”</p>
       <img src="/images/pattern-divider-desktop.svg" class="mb-8 hidden sm:inline" alt="image">
       <img src="/images/pattern-divider-mobile.svg" class="mb-8 sm:hidden" alt="image">
       <div class="absolute left-0 right-0 flex items-center -bottom-8 justify-center">
         <button class="h-16 w-16 bg-neon-green rounded-full flex items-center justify-center" @click="refresh">
+          <span hidden>roll</span>
           <img :class="{loading:pending}" src="/images/icon-dice.svg" alt="">
         </button>
       </div>
     </div>
 
     <div class="mt-auto mb-5 text-light-cyan font-medium">
-      Challenge by <a class="text-neon-green underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Challenge by <a class="text-neon-green underline" href="https://www.frontendmentor.io?ref=challenge"
+                      target="_blank">Frontend Mentor</a>.
       Coded by <a class="text-neon-green underline" href="#">NullEe</a>.
     </div>
   </main>
