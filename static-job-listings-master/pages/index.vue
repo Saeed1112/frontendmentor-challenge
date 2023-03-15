@@ -3,7 +3,7 @@
     <header class="bg-center bg-cover bg-local h-48 w-full bg-desaturated-dark-cyan"
             style="background-image: url('/images/bg-header-desktop.svg')">
     </header>
-    <div class="md:w-full lg:w-10/12 xl:w-9/12 2xl:w-8/12 -mt-8 flex flex-col mb-20 lg:px-0 px-10">
+    <div class="md:w-full lg:w-10/12 xl:w-9/12 2xl:w-8/12 -mt-8 flex flex-col mb-20 lg:px-0 px-5">
 
       <div class="w-full bg-white py-5 rounded-lg shadow-2xl flex items-center px-10 gap-3" v-if="filtered">
         <div class="flex-wrap flex gap-3">
