@@ -46,14 +46,9 @@ const items = [
 </script>
 
 <style scoped>
-.init {
-  @apply hover:text-very-dark-cyan hover:text-bright-orange hover:text-dark-cyan;
-}
-
 .suvs {
   @apply bg-dark-cyan;
 }
-
 .suvs .learn-more {
   @apply hover:text-very-dark-cyan;
 }
@@ -69,7 +64,6 @@ const items = [
 .sedans {
   @apply bg-bright-orange;
 }
-
 .sedans .learn-more {
   @apply hover:text-bright-orange;
 }
