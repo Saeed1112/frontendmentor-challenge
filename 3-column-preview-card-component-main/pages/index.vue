@@ -9,7 +9,7 @@
         <div>
           <img :src="item.image" alt="">
         </div>
-        <h1 class="font-big-shoulders-display uppercase text-4xl">{{ item.title }}</h1>
+        <h1 class="font-big-shoulders-display uppercase text-5xl">{{ item.title }}</h1>
         <p class="text-15 text-white text-opacity-75 font-lexend-deca leading-6">{{ item.content }}</p>
         <div class="mt-0 md:mt-12">
           <a href="#"
