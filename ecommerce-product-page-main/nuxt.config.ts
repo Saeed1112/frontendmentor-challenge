@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             htmlAttrs: {lang: 'en'},
-            title: 'Frontend Mentor | Advice generator app',
+            title: 'Frontend Mentor | E-commerce product page',
             link: [
                 {
                     href: 'https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap',
