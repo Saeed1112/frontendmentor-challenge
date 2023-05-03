@@ -115,6 +115,8 @@
       </div>
     </section>
     <ImageViewer :images="product.images" :index="selectedImage" v-model="fullScreenMode"/>
+
+    <DarkThemeSwitch/>
   </main>
 </template>
 
@@ -123,6 +125,7 @@ import {ref, useCart} from "#imports";
 import {Product} from "~/type/interfaces";
 import ImageViewer from "~/components/ImageViewer.vue";
 import Cart from "~/components/Cart.vue";
+import DarkThemeSwitch from "~/components/DarkThemeSwitch.vue";
 
 const {addOrder, totalOrders} = useCart()
 const navItems = ['Collections', 'Men', 'Woman', 'About', 'Contact']

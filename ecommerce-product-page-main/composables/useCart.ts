@@ -25,10 +25,10 @@ export const useCart = () => {
         cart.value.orders.splice(index, 1)
     }
 
-    const totalOrders = computed(() => cart.value.orders.length && cart.value.orders.reduce((previousValue, currentValue) => {
-        previousValue.qty += currentValue.qty;
-        return {...previousValue}
-    }).qty)
+    const totalOrders = computed(() => cart.value.orders.length && cart.value.orders.reduce((a, b) => ({
+        ...a,
+        qty: a.qty + b.qty
+    })).qty)
 
     return {cart, deleteOrder, addOrder, totalOrders}
 
